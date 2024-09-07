@@ -4,10 +4,13 @@ import "./styles.css";
 import Searchfiletr from "./components/Searchfiletr";
 import Hooks from "./components/Hooks";
 import Usememohook from "./components/Usememohook";
+import Practice10 from "./components/Practice10";
 
 export default function App() {
   return (
     <div className="App">
+      <Practice10 />
+      <hr />
       <Hooks />
       <hr />
       <Usememohook />
